@@ -1,0 +1,4 @@
+CREATE TABLE "sizes"(
+    "id" SERIAL PRIMARY KEY,
+    "name" VARCHAR(4) UNIQUE NOT NULL
+);
